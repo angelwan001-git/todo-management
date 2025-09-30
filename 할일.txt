@@ -1,0 +1,21 @@
+ixEQJiXjW3HEfGOC
+
+https://mqswrgptjoojwtqjkxbg.supabase.co
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1xc3dyZ3B0am9vand0cWpreGJnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkxNTA2NTksImV4cCI6MjA3NDcyNjY1OX0.-VQjTfUah5LDKmxj4_99-v9LN1VcEgQ-w0M-utRWDdo
+
+http://localhost:3001
+Yjw001!@
+angelwan001@gmail.com
+
+  📋 로그인 성공 후 기능 테스트
+
+  로그인이 성공하면 다음 기능들을 테스트해볼 수 있습니다:
+  - ✅ 할일 추가
+  - ✅ 할일 완료/미완료 토글
+  - ✅ 할일 수정 (텍스트 클릭)
+  - ✅ 할일 삭제
+  - ✅ 필터링 (전체/활성/완료)
+  - ✅ 통계 확인
+
+  지금 로그인을 다시 시도해보시고, 결과를 알려주세요!

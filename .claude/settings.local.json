@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npm run dev:*)",
+      "mcp__prod-browser__playwright_navigate",
+      "mcp__prod-browser__playwright_screenshot",
+      "Bash(npm install:*)",
+      "mcp__prod-browser__playwright_close",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
