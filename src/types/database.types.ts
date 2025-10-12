@@ -18,6 +18,10 @@ export interface Database {
           created_at: string
           updated_at: string
           user_id: string
+          priority: '낮음' | '보통' | '높음' | '긴급'
+          status: '예정' | '진행 중' | '완료' | '보류' | '취소'
+          start_date: string | null
+          due_date: string | null
         }
         Insert: {
           id?: string
@@ -27,6 +31,10 @@ export interface Database {
           created_at?: string
           updated_at?: string
           user_id: string
+          priority?: '낮음' | '보통' | '높음' | '긴급'
+          status?: '예정' | '진행 중' | '완료' | '보류' | '취소'
+          start_date?: string | null
+          due_date?: string | null
         }
         Update: {
           id?: string
@@ -36,6 +44,10 @@ export interface Database {
           created_at?: string
           updated_at?: string
           user_id?: string
+          priority?: '낮음' | '보통' | '높음' | '긴급'
+          status?: '예정' | '진행 중' | '완료' | '보류' | '취소'
+          start_date?: string | null
+          due_date?: string | null
         }
       }
     }

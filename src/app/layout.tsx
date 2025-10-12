@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { AuthProvider } from '@/contexts/AuthContext';
+import Header from '@/components/layout/Header';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,10 +17,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko">
-      <body className={inter.className}>
+    <html lang="ko" className="h-full">
+      <body className={`${inter.className} h-full`}>
         <AuthProvider>
-          {children}
+          <div className="flex flex-col h-full">
+            <Header />
+            <main className="flex-1 overflow-y-auto">
+              {children}
+            </main>
+          </div>
         </AuthProvider>
       </body>
     </html>

@@ -19,3 +19,84 @@ angelwan001@gmail.com
   - ✅ 통계 확인
 
   지금 로그인을 다시 시도해보시고, 결과를 알려주세요!
+
+# Claude Code 도움말 확인
+  claude --help
+
+  # 계정 정보 확인 (토큰 정보 포함 가능)
+  claude auth status
+
+  # 사용량 확인 (일부 CLI 도구에서 지원)
+  claude usage
+
+  # 계정 정보 조회
+
+
+  추천 방법:
+  1. 직접 확인: 터미널에서 claude --help 명령어를 실행하여 사용 가능한 옵션들을 확인
+  2. 공식 문서: https://docs.claude.com 에서 최신 정보 확인
+  3. Anthropic 지원: 정확한 요금제 및 토큰 정책은 Anthropic 공식 지원팀에 문의
+
+  현재 베타 서비스 기간 동안은 상당한 무료 사용량이 제공될 가능성이 높지만, 정확한 정보는 공식 채널을 통해 확인하시는 것이 좋겠습니다.
+
+> claude auth status
+
+● Claude CLI의 인증 상태를 확인해보겠습니다:
+
+● Bash(claude auth status)
+  ⎿  Error: Command timed out after 2m 0s
+
+● 명령어가 타임아웃되었습니다. 다른 방법으로 Claude CLI 명령어들을 확인해보겠습니다:
+
+● Bash(claude --help)
+  ⎿  Usage: claude [options] [command] [prompt]
+
+     Claude Code - starts an interactive session by default, use -p/--print for
+     … +44 lines (ctrl+o to expand)
+
+● Claude CLI 도움말을 확인했습니다. 토큰과 관련된 명령어를 찾아보겠습니다:
+
+● Bash(claude setup-token --help)
+  ⎿  Usage: claude setup-token [options]
+
+     Set up a long-lived authentication token (requires Claude subscription)
+     … +3 lines (ctrl+o to expand)
+
+● Claude Code에서 사용량이나 인증 상태를 확인할 수 있는지 더 찾아보겠습니다:
+
+● Bash(claude doctor)
+  ⎿  Interrupted · What should Claude do instead?
+
+> claude usage
+
+● Bash(claude usage)
+  ⎿  Error: Command timed out after 2m 0s
+
+● claude usage 명령어도 타임아웃되었습니다. Claude CLI의 대화형 명령어들이 현재 환경에서 실행하기 어려운 것 같습니다.
+
+  Claude Code 토큰 사용량 확인에 대한 정리:
+
+  1. 일반적인 명령어들:
+    - claude auth status - 인증 상태 확인
+    - claude usage - 사용량 확인 (일부 CLI 도구에서 지원)
+    - claude doctor - 시스템 상태 확인
+  2. 현재 상황:
+    - 이 명령어들이 현재 환경에서 타임아웃되고 있습니다
+    - 대화형 모드가 필요한 명령어들이 백그라운드 환경에서 실행하기 어려울 수 있습니다
+  3. 토큰 정보 확인 방법:
+    - 직접 터미널에서 claude auth status 실행
+    - Claude 웹 인터페이스에서 계정 정보 확인
+    - Anthropic 공식 문서나 지원팀 문의
+  4. 무료 사용에 대해:
+    - Claude Code는 현재 베타 서비스로 상당한 무료 사용량 제공
+    - 정확한 3일 정책이나 토큰 한도는 공식 문서 확인 필요
+
+  실제 토큰 잔량을 확인하려면 직접 터미널에서 claude auth status 명령어를 실행해보시는 것이 가장 정확합니다.
+
+bunx ccusage 
+bunx ccusage daily
+bunx ccusage --breakdown
+bunx ccusage --monthly
+bunx ccusage session
+bunx ccusage blocks 
+bunx ccusage blocks --live   ctrl+o
